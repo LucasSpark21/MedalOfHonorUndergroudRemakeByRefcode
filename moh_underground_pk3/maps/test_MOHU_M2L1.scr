@@ -1,0 +1,40 @@
+main:
+	exec global/exploder.scr
+	exec global/ai.scr
+	exec global/spotlight.scr
+	exec global/loadout.scr maps/test_Casablanca.scr
+	exec global/ambient.scr m2l2a
+
+	thread global/barrel.scr::explosive_barrel
+	
+level waittill prespawn
+	level.script = maps/test_Paris.scr
+	exec global/exploder.scr
+
+level waittill spawn
+	// Armes
+	$mg42 thread global/mg42_active.scr::mg42
+	$player item weapons/silencedpistol.tik
+	$player ammo pistol 24
+	$player useweaponclass pistol
+	
+	// Son
+	soundtrack music/MOHU_M2L1.mus
+	
+	// Objectifs
+	waitthread global/objectives.scr::add_objectives 1 2 "Monter dans le camion." $endlevel.origin
+//	waitthread global/objectives.scr::add_objectives 2 2 "Retrouver l'avion." $find_aircraft.origin
+//	waitthread global/objectives.scr::add_objectives 3 2 "Trouver l'entrée de la ville." $endlevel.origin
+	waitthread global/objectives.scr::current_objectives 1	
+	
+//	level.avion_trouve = false
+end
+
+out_of_hotel:
+ 	$player stufftext "tmstartloop sound/music/MOHU_Road_to_Tobruk.mp3"
+end
+
+endlevel:
+	waitthread global/objectives.scr::add_objectives 1 3 "Monter dans le camion." $endlevel.origin
+	exec global/missioncomplete.scr transfer//test_MOH_M1L2 1
+end

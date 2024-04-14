@@ -1,0 +1,46 @@
+main:
+	exec global/ai.scr
+	exec global/bomber.scr
+
+level waittill prespawn
+	$player item weapons/colt45.tik
+	$player item weapons/m1_garand.tik
+	$player item weapons/M2frag_grenade_sp_start.tik
+	$player item weapons/steilhandgranate_start.tik
+	$player ammo pistol 88
+	$player ammo rifle 32
+	$player ammo agrenade 4
+	$player useweaponclass rifle
+
+level waittill spawn
+	// Sons
+	soundtrack music/MOHU_M1L2.mus
+	exec global/door_locked.scr
+
+	// Spawn des groupes d'ennemis
+	thread global/ai.scr::spawngroup #1 #1
+	thread global/ai.scr::spawngroup #1 #2
+
+	// Objectifs
+	waitthread global/objectives.scr::add_objectives 1 2 "Récupérer le carnet de vol." $logbook.origin
+	waitthread global/objectives.scr::add_objectives 2 2 "Retrouver l'avion." $endlevel.origin
+	waitthread global/objectives.scr::add_objectives 3 1 "Entrer dans la ville." $obj3.origin
+	waitthread global/objectives.scr::current_objectives 1
+	
+	// Annimation du C47
+	//thread global/bomber.scr::bomb 3 1
+	
+	wait 4
+	$player stufftext "tmstartloop sound/music/mus_15a_mystery.mp3"
+end
+
+objective1:
+	$logbook remove
+	waitthread global/objectives.scr::add_objectives 1 3 "Récupérer le carnet de vol." $logbook.origin
+	waitthread global/objectives.scr::current_objectives 2
+end
+
+endlevel:
+	$endlevel waittill trigger
+	exec global/missioncomplete.scr test_MOHU_M2L1 1
+end
