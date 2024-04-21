@@ -2337,34 +2337,6 @@
 }
 // entity 61
 {
-"angles" "0 0 3"
-"angle" "315"
-"classname" "static_natural_tree_commontree"
-"scale" "2.40"
-"model" "static//tree_commontree.tik"
-"testanim" "idle"
-"origin" "-3257.60 1966.40 -372.80"
-}
-// entity 62
-{
-"angle" "270"
-"origin" "-3348.00 2307.20 -328.00"
-"testanim" "idle"
-"model" "static//bush_regularbush.tik"
-"scale" "7.10"
-"classname" "static_natural_bush_regularbush"
-}
-// entity 63
-{
-"classname" "static_natural_bush_regularbush"
-"scale" "7.10"
-"model" "static//bush_regularbush.tik"
-"testanim" "idle"
-"origin" "-2828.00 2307.20 -328.00"
-"angle" "270"
-}
-// entity 64
-{
 "angle" "270"
 "origin" "2002.00 595.20 -80.00"
 "testanim" "idle"
@@ -2372,34 +2344,59 @@
 "scale" "7.10"
 "classname" "static_natural_bush_regularbush"
 }
-// entity 65
+// entity 62
 {
 "classname" "static_natural_bush_regularbush"
 "scale" "7.10"
 "model" "static//bush_regularbush.tik"
 "testanim" "idle"
-"origin" "-1790.00 2307.20 -328.00"
+"origin" "708.00 355.20 -26.00"
 "angle" "270"
+}
+// entity 63
+{
+"angle" "270"
+"origin" "188.00 355.20 -26.00"
+"testanim" "idle"
+"model" "static//bush_regularbush.tik"
+"scale" "7.10"
+"classname" "static_natural_bush_regularbush"
+}
+// entity 64
+{
+"classname" "static_natural_bush_regularbush"
+"scale" "7.10"
+"model" "static//bush_regularbush.tik"
+"testanim" "idle"
+"origin" "6532.00 355.20 -64.00"
+"angle" "270"
+}
+// entity 65
+{
+"angle" "270"
+"origin" "2796.00 1019.20 -64.00"
+"testanim" "idle"
+"model" "static//bush_regularbush.tik"
+"scale" "7.10"
+"classname" "static_natural_bush_regularbush"
 }
 // entity 66
 {
-"origin" "-2203.20 2052.80 -333.60"
+"classname" "static_natural_bush_regularbush"
+"scale" "7.10"
+"model" "static//bush_regularbush.tik"
 "testanim" "idle"
-"model" "static//tree_commontree.tik"
-"scale" "2.30"
-"classname" "static_natural_tree_commontree"
-"angle" "90"
-"angles" "0 0 3"
+"origin" "5916.00 355.20 -64.00"
+"angle" "270"
 }
 // entity 67
 {
-"angles" "0 0 3"
-"angle" "315"
-"classname" "static_natural_tree_commontree"
-"scale" "2.40"
-"model" "static//tree_commontree.tik"
+"classname" "static_natural_bush_regularbush"
+"scale" "7.10"
+"model" "static//bush_regularbush.tik"
 "testanim" "idle"
-"origin" "310.40 270.40 -28.80"
+"origin" "6596.80 -286.40 -64.00"
+"angle" "90"
 }
 // entity 68
 {
@@ -2407,182 +2404,28 @@
 "scale" "7.10"
 "model" "static//bush_regularbush.tik"
 "testanim" "idle"
-"origin" "708.00 355.20 16.00"
-"angle" "270"
+"origin" "6124.80 -310.40 -64.00"
+"angle" "90"
 }
 // entity 69
 {
-"origin" "964.80 364.80 10.40"
+"classname" "static_natural_bush_regularbush"
+"scale" "7.10"
+"model" "static//bush_regularbush.tik"
 "testanim" "idle"
-"model" "static//tree_commontree.tik"
-"scale" "2.30"
-"classname" "static_natural_tree_commontree"
+"origin" "3556.80 -286.40 -64.00"
 "angle" "90"
-"angles" "0 0 3"
 }
 // entity 70
 {
-"angles" "0 0 3"
-"angle" "315"
-"classname" "static_natural_tree_commontree"
-"scale" "2.40"
-"model" "static//tree_commontree.tik"
+"classname" "static_natural_bush_regularbush"
+"scale" "7.10"
+"model" "static//bush_regularbush.tik"
 "testanim" "idle"
-"origin" "878.40 -305.60 -28.80"
+"origin" "2980.80 -286.40 -64.00"
+"angle" "90"
 }
 // entity 71
-{
-"angles" "0 0 3"
-"angle" "315"
-"classname" "static_natural_tree_commontree"
-"scale" "2.40"
-"model" "static//tree_commontree.tik"
-"testanim" "idle"
-"origin" "102.40 -305.60 -28.80"
-}
-// entity 72
-{
-"angles" "0 0 3"
-"angle" "315"
-"classname" "static_natural_tree_commontree"
-"scale" "2.40"
-"model" "static//tree_commontree.tik"
-"testanim" "idle"
-"origin" "1534.40 590.40 -28.80"
-}
-// entity 73
-{
-"origin" "1380.80 -355.20 10.40"
-"testanim" "idle"
-"model" "static//tree_commontree.tik"
-"scale" "2.30"
-"classname" "static_natural_tree_commontree"
-"angle" "90"
-"angles" "0 0 3"
-}
-// entity 74
-{
-"angles" "0 0 3"
-"angle" "315"
-"classname" "static_natural_tree_commontree"
-"scale" "2.40"
-"model" "static//tree_commontree.tik"
-"testanim" "idle"
-"origin" "2518.40 -345.60 -28.80"
-}
-// entity 75
-{
-"origin" "3380.80 -187.20 10.40"
-"testanim" "idle"
-"model" "static//tree_commontree.tik"
-"scale" "2.30"
-"classname" "static_natural_tree_commontree"
-"angle" "90"
-"angles" "0 0 3"
-}
-// entity 76
-{
-"angles" "0 0 3"
-"angle" "315"
-"classname" "static_natural_tree_commontree"
-"scale" "2.40"
-"model" "static//tree_commontree.tik"
-"testanim" "idle"
-"origin" "3438.40 302.40 -28.80"
-}
-// entity 77
-{
-"origin" "2772.80 548.80 10.40"
-"testanim" "idle"
-"model" "static//tree_commontree.tik"
-"scale" "2.30"
-"classname" "static_natural_tree_commontree"
-"angle" "90"
-"angles" "0 0 3"
-}
-// entity 78
-{
-"origin" "2052.80 564.80 10.40"
-"testanim" "idle"
-"model" "static//tree_commontree.tik"
-"scale" "2.30"
-"classname" "static_natural_tree_commontree"
-"angle" "225"
-"angles" "0 0 3"
-}
-// entity 79
-{
-"angle" "270"
-"origin" "188.00 355.20 16.00"
-"testanim" "idle"
-"model" "static//bush_regularbush.tik"
-"scale" "7.10"
-"classname" "static_natural_bush_regularbush"
-}
-// entity 80
-{
-"classname" "static_natural_bush_regularbush"
-"scale" "7.10"
-"model" "static//bush_regularbush.tik"
-"testanim" "idle"
-"origin" "6532.00 355.20 16.00"
-"angle" "270"
-}
-// entity 81
-{
-"angle" "270"
-"origin" "2796.00 1019.20 16.00"
-"testanim" "idle"
-"model" "static//bush_regularbush.tik"
-"scale" "7.10"
-"classname" "static_natural_bush_regularbush"
-}
-// entity 82
-{
-"classname" "static_natural_bush_regularbush"
-"scale" "7.10"
-"model" "static//bush_regularbush.tik"
-"testanim" "idle"
-"origin" "5916.00 355.20 16.00"
-"angle" "270"
-}
-// entity 83
-{
-"classname" "static_natural_bush_regularbush"
-"scale" "7.10"
-"model" "static//bush_regularbush.tik"
-"testanim" "idle"
-"origin" "6596.80 -286.40 16.00"
-"angle" "90"
-}
-// entity 84
-{
-"classname" "static_natural_bush_regularbush"
-"scale" "7.10"
-"model" "static//bush_regularbush.tik"
-"testanim" "idle"
-"origin" "6124.80 -310.40 16.00"
-"angle" "90"
-}
-// entity 85
-{
-"classname" "static_natural_bush_regularbush"
-"scale" "7.10"
-"model" "static//bush_regularbush.tik"
-"testanim" "idle"
-"origin" "3556.80 -286.40 16.00"
-"angle" "90"
-}
-// entity 86
-{
-"classname" "static_natural_bush_regularbush"
-"scale" "7.10"
-"model" "static//bush_regularbush.tik"
-"testanim" "idle"
-"origin" "2980.80 -286.40 16.00"
-"angle" "90"
-}
-// entity 87
 {
 "classname" "static_natural_bush_regularbush"
 "scale" "7.10"
@@ -2591,12 +2434,204 @@
 "origin" "2020.80 -558.40 -56.00"
 "angle" "90"
 }
-// entity 88
+// entity 72
 {
 "classname" "static_natural_bush_regularbush"
 "scale" "7.10"
 "model" "static//bush_regularbush.tik"
 "testanim" "idle"
-"origin" "1172.80 -302.40 16.00"
+"origin" "1172.80 -302.40 -32.00"
 "angle" "90"
+}
+// entity 73
+{
+"origin" "284.00 -260.00 56.00"
+"testanim" "idle"
+"model" "static/bush_buckthorn.tik"
+"scale" "1.0"
+"classname" "static_natural_bush_buckthorn"
+}
+// entity 74
+{
+"origin" "160.00 -288.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 75
+{
+"origin" "800.00 -288.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 76
+{
+"origin" "480.00 352.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 77
+{
+"origin" "672.00 344.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 78
+{
+"origin" "704.00 576.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 79
+{
+"origin" "316.00 324.00 56.00"
+"testanim" "idle"
+"model" "static/bush_buckthorn.tik"
+"scale" "1.0"
+"classname" "static_natural_bush_buckthorn"
+}
+// entity 80
+{
+"origin" "932.00 356.00 56.00"
+"testanim" "idle"
+"model" "static/bush_buckthorn.tik"
+"scale" "1.0"
+"classname" "static_natural_bush_buckthorn"
+}
+// entity 81
+{
+"origin" "1932.00 508.00 56.00"
+"testanim" "idle"
+"model" "static/bush_buckthorn.tik"
+"scale" "1.0"
+"classname" "static_natural_bush_buckthorn"
+}
+// entity 82
+{
+"origin" "2132.00 540.00 56.00"
+"testanim" "idle"
+"model" "static/bush_buckthorn.tik"
+"scale" "1.0"
+"classname" "static_natural_bush_buckthorn"
+}
+// entity 83
+{
+"origin" "2656.00 -224.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 84
+{
+"origin" "2528.00 -416.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 85
+{
+"origin" "2272.00 -480.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 86
+{
+"origin" "2524.00 -156.00 56.00"
+"testanim" "idle"
+"model" "static/bush_buckthorn.tik"
+"scale" "1.0"
+"classname" "static_natural_bush_buckthorn"
+}
+// entity 87
+{
+"origin" "2776.00 480.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 88
+{
+"origin" "2912.00 608.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 89
+{
+"origin" "2588.00 420.00 56.00"
+"testanim" "idle"
+"model" "static/bush_buckthorn.tik"
+"scale" "1.0"
+"classname" "static_natural_bush_buckthorn"
+}
+// entity 90
+{
+"origin" "3292.00 228.00 56.00"
+"testanim" "idle"
+"model" "static/bush_buckthorn.tik"
+"scale" "1.0"
+"classname" "static_natural_bush_buckthorn"
+}
+// entity 91
+{
+"origin" "3488.00 288.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 92
+{
+"origin" "3584.00 384.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 93
+{
+"origin" "3680.00 288.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 94
+{
+"origin" "3228.00 -164.00 56.00"
+"testanim" "idle"
+"model" "static/bush_buckthorn.tik"
+"scale" "1.0"
+"classname" "static_natural_bush_buckthorn"
+}
+// entity 95
+{
+"origin" "3424.00 -224.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
+}
+// entity 96
+{
+"origin" "3616.00 -224.00 -112.00"
+"testanim" "idle"
+"model" "static/tree_juniper.tik"
+"scale" "1.0"
+"classname" "static_natural_tree_juniper"
 }
