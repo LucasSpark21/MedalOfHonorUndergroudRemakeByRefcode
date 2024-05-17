@@ -231,3 +231,39 @@ textures/wewelsburg/tower_wall_8
         depthFunc equal
     }
 }
+
+textures/wewelsburg/rituals_1
+{
+    qer_keyword rock
+    qer_keyword wall
+    surfaceparm sand
+    {
+        map textures/wewelsburg/rituals_1.tga
+        depthWrite
+        rgbGen identity
+    }
+    {
+        map $lightmap
+        rgbGen identity
+        blendFunc GL_DST_COLOR GL_ZERO
+        depthFunc equal
+    }
+}
+
+textures/wewelsburg/rituals_2
+{
+    qer_keyword rock
+    qer_keyword wall
+    surfaceparm sand
+    {
+        map textures/wewelsburg/rituals_2.tga
+        depthWrite
+        rgbGen identity
+    }
+    {
+        map $lightmap
+        rgbGen identity
+        blendFunc GL_DST_COLOR GL_ZERO
+        depthFunc equal
+    }
+}
