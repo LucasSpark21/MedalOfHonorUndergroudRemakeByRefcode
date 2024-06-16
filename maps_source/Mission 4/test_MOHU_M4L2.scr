@@ -30,9 +30,7 @@ maingame:
 end
 
 entered_in_castle:
-    // close the doors
-
-	iprintlnbold "On teste."
+    wait 4
 	$player stufftext "tmstartloop sound/music/mus_15a_mystery.mp3"
 end
 
@@ -70,4 +68,10 @@ end
 //     waitthread global/objectives.scr::current_objectives 0 //clears objectives
 //     exec global/missioncomplete.scr test_ascent_to_the_castle_pt2
 //     wait 2
+//end
+
+endmission:
+	$endlevel waittill trigger
+	// waitthread global/objectives.scr::add_objectives 5 3 "Suivre les rails jusqu'au canyon." $endlevel.origin
+	exec global/missioncomplete.scr test_MOHU_M4L3 1
 end
